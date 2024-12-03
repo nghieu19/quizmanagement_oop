@@ -23,7 +23,7 @@ public class CreateUserUI_Admin extends JFrame implements ActionListener{
         
         // Username
         JLabel labelusername = new JLabel("Username");
-        labelusername.setBounds(50, 100, 200, 30);
+        labelusername.setBounds(140, 100, 200, 30);
         labelusername.setFont(new Font("serif", Font.PLAIN, 20));
         add(labelusername);
         
@@ -33,7 +33,7 @@ public class CreateUserUI_Admin extends JFrame implements ActionListener{
         
         // Password
         JLabel labelpassword = new JLabel("Password");
-        labelpassword.setBounds(50, 150, 200, 30);
+        labelpassword.setBounds(140, 150, 200, 30);
         labelpassword.setFont(new Font("serif", Font.PLAIN, 20));
         add(labelpassword);
         
@@ -43,7 +43,7 @@ public class CreateUserUI_Admin extends JFrame implements ActionListener{
                
         // Role
         JLabel labelrole = new JLabel("Role");
-        labelrole.setBounds(50, 200, 200, 30);
+        labelrole.setBounds(140, 200, 200, 30);
         labelrole.setFont(new Font("serif", Font.PLAIN, 20));
         add(labelrole);
         
@@ -55,17 +55,15 @@ public class CreateUserUI_Admin extends JFrame implements ActionListener{
 
         // Button
         add = new JButton("Create User");
-        add.setBounds(100, 280, 150, 40);
+        add.setBounds(150, 280, 120, 30);
         add.addActionListener(this);
-        add.setBackground(Color.BLACK);
-        add.setForeground(Color.WHITE);
+        add.setForeground(Color.BLACK);
         add(add);
         
         back = new JButton("Back");
-        back.setBounds(300, 280, 150, 40);
+        back.setBounds(380, 280, 80, 30);
         back.addActionListener(this);
-        back.setBackground(Color.BLACK);
-        back.setForeground(Color.WHITE);
+        back.setForeground(Color.BLACK);
         add(back);
         
         setSize(600, 450);
